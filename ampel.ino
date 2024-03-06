@@ -9,15 +9,15 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   digitalWrite(2, HIGH);
-  delay(250);
+  delay(2000);
   digitalWrite(2, LOW);
   digitalWrite(3, HIGH);
-  delay(250);
+  delay(2000);
   digitalWrite(3, LOW);
   digitalWrite(4, HIGH);
-  delay(250);
-  digitalWrite(4, LOW);
+  delay(2000);
   digitalWrite(3, HIGH);
-  delay(250);
+  delay(2000);
+  digitalWrite(4, LOW);
   digitalWrite(3, LOW);
 }
